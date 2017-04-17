@@ -1,0 +1,10 @@
+var files = [
+  "index.html",
+  "full_week_table.html",
+  "manifest.json",
+  "css/application.css",
+  "img/icon.png",
+  "js/install.js",
+  "js/application.js",
+  "js/lib/jquery.min.js"
+];

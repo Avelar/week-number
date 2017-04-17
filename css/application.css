@@ -1,0 +1,49 @@
+html, body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #D17C78;
+  width: 100%;
+  height: 100%;
+}
+body {
+  background: #121738;
+  color: #D17C78;
+  font-family: arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Typography */
+h1.container-week {
+  font-size: 190px;
+  font-family: impact, "Arial Black", sans-serif;
+  line-height: 1;
+  margin: 12px 0 45px 0;
+}
+h2.container-week-label {
+  font-size: 51px;
+  font-family: impact, "Arial Black", sans-serif;
+  line-height: 1;
+  margin-top: 10px;
+}
+.container-fromto--item {
+  font-weight: 100;
+  letter-spacing: 3px;
+  line-height: 26px;
+}
+
+/* Content */
+.container {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
