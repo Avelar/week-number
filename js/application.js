@@ -14,6 +14,6 @@ $( document ).ready(function() {
 	var d= new Date();
 	var currentYear = d.getFullYear();
 	// console.log(d.getWeek());
-	$(".container-week").html(d.getWeek());
+	$(".container-week").html(d.getWeek()-1);
 	$(".container-year").html(currentYear);
 });

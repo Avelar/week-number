@@ -21,19 +21,22 @@ body {
 
 /* Typography */
 h1.container-week {
-  font-size: 190px;
-  font-family: impact, "Arial Black", sans-serif;
+  font-size: 200px;
+  font-family: impact, sans-serif;
+  font-weight: bolder;
   line-height: 1;
+  letter-spacing: -4px;
   margin: 12px 0 45px 0;
 }
 h2.container-week-label {
   font-size: 51px;
   font-family: impact, "Arial Black", sans-serif;
+  font-weight: bold;
   line-height: 1;
   margin-top: 10px;
 }
 .container-fromto--item {
-  font-weight: 100;
+  font-weight: normal;
   letter-spacing: 3px;
   line-height: 26px;
 }
