@@ -38,14 +38,20 @@
         Week
       </h2>
       <h1 class="container-week"></h1>
-      <div class="container-fromto">
-        <p class="container-fromto--item">
-          From date: <span class="from-date">M/D/Y</span>
-        </p>
-        <p class="container-fromto--item">
-          To date: <span class="to-date">M/D/Y</span>
-        </p>
-      </div>
+      <ul class="timeline-container">
+        <li class="timeline-container--item">
+          <div class="timeline-container--item---date">
+            <span class="item-block from-date--label">From</span>
+            <span class="item-block from-date--number">M/D/Y</span>
+          </div>
+        </li>
+        <li class="timeline-container--item">
+          <div class="timeline-container--item---date">
+            <span class="item-block to-date--label">To</span>
+            <span class="item-block to-date--number">M/D/Y</span>
+          </div>
+        </li>
+      </ul>
     </div>
 
     <script src="js/lib/jquery.min.js"></script>
