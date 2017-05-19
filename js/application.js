@@ -13,7 +13,19 @@ $( document ).ready(function() {
 
 	var d= new Date();
 	var currentYear = d.getFullYear();
-	// console.log(d.getWeek());
 	$(".container-week").html(d.getWeek()-1);
 	$(".container-year").html(currentYear);
+
+	// Get first and last day of the week
+	// get current date
+	var curr = new Date;
+	// First day is the day of the month - the day of the week
+	// Adds curr.getDay() +1 if the getWeek fuction goes from thuesday to sunday
+	var first = curr.getDate() - curr.getDay();
+	// last day is the first day + 6
+	var last = first + 6;
+	var firstday = new Date(curr.setDate(first)).toDateString();
+	var lastday = new Date(curr.setDate(last)).toDateString();
+	$(".from-date--number").html(firstday);
+	$(".to-date--number").html(lastday);
 });
