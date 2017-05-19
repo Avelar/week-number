@@ -78,3 +78,4 @@ h2.container-week-label {
 }
 li { transition: all 200ms ease-in; }
 li .status { border-top: 4px solid #D17C78; }
+p.item-block { display: block !important; }
