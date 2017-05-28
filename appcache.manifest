@@ -1,9 +1,7 @@
 CACHE MANIFEST
 
 CACHE:
-./files.json
 ./index.html
-./full_week_table.html
 ./manifest.json
 ./css/application.css
 ./img/icon.png
