@@ -6,7 +6,7 @@
     <title>Week Number</title>
     <meta name="description" content="Week Number WebApp">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/application.css">
+    <link rel='canonical' href='https://avelarfortunato.com/week-number/'>
 
     <link rel="manifest" href="manifest.json">
 
@@ -18,14 +18,16 @@
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Week Number">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="apple-touch-icon-precomposed" href="img/icon.png">
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
     <meta name="msapplication-TileImage" content="img/icon.png">
     <meta name="msapplication-TileColor" content="#121738">
 
-    <script>
+    <link rel="stylesheet" href="css/application.css">
+
+    <script type="text/javascript">
       if (window.location.protocol != "https:" && window.location.hostname == "avelar.github.io")
         window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
     </script>
@@ -54,6 +56,15 @@
     <script src="js/lib/jquery.min.js"></script>
     <script src="js/application.js"></script>
     <script src="js/install.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-23660227-1', 'auto');
+      ga('send', 'pageview');
+    </script>
 
   </body>
 </html>
