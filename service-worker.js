@@ -32,30 +32,3 @@ self.addEventListener('activate', function(event) {
     })
   );
 });
-
-self.addEventListener('install', function(event){
-  console.log('[SW] Install');
-  event.waitUntil(
-    caches.open(CACHE_NAME).then(function(cache) {
-      return Promise.all(
-      	files.map(function(file){
-      		return cache.add(file);
-      	})
-      );
-    })
-  );
-});
-
-self.addEventListener('fetch', function(event) {
-  console.log('[SW] fetch ' + event.request.url)
-  event.respondWith(
-    caches.match(event.request).then(function(response){
-      return response || fetch(event.request.clone());
-    })
-  );
-});
-
-self.addEventListener('notificationclick', function(event) {
-  console.log('On notification click: ', event);
-  clients.openWindow('/');
-});
