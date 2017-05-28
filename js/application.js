@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+	// Get Date
 	Date.prototype.getWeek = function () {
 			var target  = new Date(this.valueOf());
 			var dayNr   = (this.getDay() + 6) % 7;
@@ -16,8 +17,7 @@ $( document ).ready(function() {
 	$(".container-week").html(d.getWeek()-1);
 	$(".container-year").html(currentYear);
 
-	// Get first and last day of the week
-	// get current date
+	// Get current date
 	var curr = new Date;
 	// First day is the day of the month - the day of the week
 	// Adds curr.getDay() +1 if the getWeek fuction goes from thuesday to sunday
@@ -26,6 +26,7 @@ $( document ).ready(function() {
 	var last = first + 6;
 	var firstday = new Date(curr.setDate(first)).toDateString();
 	var lastday = new Date(curr.setDate(last)).toDateString();
+	// Show first and last day of the week
 	$(".from-date--number").html(firstday);
 	$(".to-date--number").html(lastday);
 });
