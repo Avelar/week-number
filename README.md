@@ -2,10 +2,10 @@
 
 ![destructive](https://img.shields.io/badge/Version-v1.0.2-blue.svg?style=flat)
 
-This is a Progressive Web App (PWA) project. It's show the number of the week like an App in your device.  
+This is a Progressive Web Application (PWA) project. Week Number shows the number of the week like an App in your device.  
 
 How to use:
-1. Acesse the app http://avelarfortunato.com/week-number/
+1. Access the app http://avelarfortunato.com/week-number/
 2. Add to your Homescreen
 3. Enjoy :)
 
