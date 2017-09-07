@@ -21,7 +21,7 @@ $( document ).ready(function() {
 	var curr = new Date;
 	// First day is the day of the month - the day of the week
 	// Adds curr.getDay() +1 if the getWeek fuction goes from thuesday to sunday
-	var first = curr.getDate() - curr.getDay();
+	var first = curr.getDate() - curr.getDay()+1;
 	// last day is the first day + 6
 	var last = first + 6;
 	var firstday = new Date(curr.setDate(first)).toDateString();
