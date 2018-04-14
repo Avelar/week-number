@@ -1,0 +1,12 @@
+CACHE MANIFEST
+
+#v3
+
+CACHE:
+css/application.css
+img/icon.png
+js/lib/jquery.min.js
+js/application.js
+
+NETWORK:
+*
