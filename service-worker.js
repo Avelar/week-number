@@ -4,6 +4,7 @@ let files = [
 "js/lib/jquery.min.js",
 "js/application.js",
 "img/icon.png",
+"https://fonts.googleapis.com/css?family=Montserrat:400,900",
 ]
 
 self.addEventListener("install", function(){
