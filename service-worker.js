@@ -1,3 +1,5 @@
+const version = 2;
+
 let files = [
 "/",
 "css/application.css",
@@ -8,11 +10,17 @@ let files = [
 ]
 
 self.addEventListener("install", function(){
-  console.log("week number ready")
-  caches.open("week-number-files").then(cache => {
+  console.log("week number ready");
+
+  caches.open("week-number-files-" + version).then(cache => {
     cache.addAll(files)
-  })
-})
+      .then(function(){
+        caches.delete("week-number-files-" + (version - 1));
+        caches.delete("week-number-files");
+      });
+  });
+
+});
 
 self.addEventListener("fetch", function(event){
     let pedido = event.request
