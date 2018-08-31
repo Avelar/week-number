@@ -1,12 +1,12 @@
 {
-    "name": "Week Number",
-    "start_url" : "./",
-    "display": "standalone",
-    "icons": [
-        {
-            "src": "img/icon.png",
-            "sizes" : "256x256",
-            "type" : "image/png"
-        }
-    ]
+  "name": "Week Number",
+  "start_url" : "./",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "img/icon.png",
+      "sizes" : "256x256",
+      "type" : "image/png"
+    }
+  ]
 }
