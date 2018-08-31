@@ -1,6 +1,6 @@
 #Week Number
 
-![destructive](https://img.shields.io/badge/Version-v2.0.0-blue.svg?style=flat)
+![destructive](https://img.shields.io/badge/Version-v2.0.1-blue.svg?style=flat)
 
 Week Number is a Progressive Web Application project. This app shows the number of the week, in a simple, fast and beautiful way, like an native app in your device. It works event offline.
 
@@ -17,7 +17,7 @@ How to use:
 - ~~User interface (app design, color, typography, icon)~~
 - ~~WebApp front-end structure (html, css, app manifest, service-workers)~~
 - ~~Fix script to update and version app with cache~~
-- ~~Landing Page for distribute - http://avelarfortunato.com/weeknumber/~~ 
+- ~~Landing Page for distribute - http://avelarfortunato.com/weeknumber/~~
 - Add about section
 - Create add homescreen button
 

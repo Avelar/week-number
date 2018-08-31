@@ -1,5 +1,5 @@
 {
-  "name": "Week Number",
+  "name": "WeekNumber",
   "start_url" : "./",
   "display": "standalone",
   "icons": [
