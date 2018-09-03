@@ -17,7 +17,7 @@ How to use:
 - ~~User interface (app design, color, typography, icon)~~
 - ~~WebApp front-end structure (html, css, app manifest, service-workers)~~
 - ~~Fix script to update and version app with cache~~
-- ~~Landing Page for distribute~~
+- ~~Landing Page for distribute - http://avelarfortunato.com/weeknumber/~~ 
 - Add about section
 - Create add homescreen button
 
