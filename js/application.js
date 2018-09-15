@@ -12,21 +12,30 @@ $( document ).ready(function() {
 			return 1 + Math.ceil((firstThursday - target) / 604800000);
 	}
 
-	var d= new Date();
+// Get current date
+	var d = new Date();
+	// Get current Year
 	var currentYear = d.getFullYear();
+	// show Week Number
 	$(".container-week").html(d.getWeek()-1);
+	// show Current Year
 	$(".container-year").html(currentYear);
 
-	// Get current date
-	var curr = new Date;
-	// First day is the day of the month - the day of the week
-	// Adds curr.getDay() +1 if the getWeek fuction goes from thuesday to sunday
-	var first = curr.getDate() - curr.getDay()+1;
-	// last day is the first day + 6
+
+	// first = the day of this month - the day of the week
+	var first = d.getDate() - d.getDay()+1;
+	// last = the first day + 6
 	var last = first + 6;
-	var firstday = new Date(curr.setDate(first)).toDateString();
-	var lastday = new Date(curr.setDate(last)).toDateString();
-	// Show first and last day of the week
-	$(".from-date--number").html(firstday);
-	$(".to-date--number").html(lastday);
+	//
+	var firstday = new Date(d.setDate(first)).toDateString();
+	//
+	var lastday = new Date(d.setDate(last)).toDateString();
+
+	// remove Year from Date string
+	const newFirstday = firstday.replace(currentYear, " ");
+	const newlastday = lastday.replace(currentYear, " ");
+
+	// Show from first to last day of the current week
+	$(".from-date--number").html(newFirstday);
+	$(".to-date--number").html(newlastday);
 });
