@@ -1,7 +1,10 @@
 {
   "name": "WeekNumber",
+  "short_name": "WeekNumber",
   "start_url" : "./",
   "display": "standalone",
+  "background_color": "#FDF06F",
+  "description": "A simply week number view app.",
   "icons": [
     {
       "src": "img/icon.png",
