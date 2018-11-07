@@ -3,6 +3,7 @@
   "short_name": "WeekNumber",
   "start_url" : "./",
   "display": "standalone",
+  "theme_color": "#FDF06F",
   "background_color": "#FDF06F",
   "description": "A simply week number view app.",
   "icons": [
