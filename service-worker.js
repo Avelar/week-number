@@ -11,7 +11,7 @@ let files = [
 ]
 
 self.addEventListener("install", function(){
-  console.log("week number ready");
+  console.log("Week number ready");
 
   caches.open("week-number-files-" + version).then(cache => {
     cache.addAll(files)
