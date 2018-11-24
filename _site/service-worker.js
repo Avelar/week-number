@@ -2,6 +2,7 @@ const version = 2;
 
 let files = [
 "/",
+"/index.html",
 "css/application.css",
 "js/lib/jquery.min.js",
 "js/application.js",
