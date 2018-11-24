@@ -23,4 +23,5 @@ How to use:
 
 *Later*
 - transform from jQUery to pure javaScript
+- Push notification
 - Android ad iOS version with Electron
