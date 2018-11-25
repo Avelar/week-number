@@ -53,3 +53,10 @@ h2.container-week-label {
   margin-bottom: 10px;
 }
 p.item-block { display: block !important; }
+
+.add-button {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  color: #fff;
+}

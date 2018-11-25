@@ -3,6 +3,7 @@ CACHE MANIFEST
 #v2
 
 CACHE:
+index.html
 css/application.css
 img/icon.png
 js/lib/jquery.min.js
