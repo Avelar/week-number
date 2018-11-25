@@ -54,10 +54,6 @@ h2.container-week-label {
 }
 p.item-block { display: block !important; }
 
-/* #btnAdd {
-  display: none;
-} */
-
 .add-button {
   position: absolute;
   top: 1px;
