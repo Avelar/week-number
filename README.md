@@ -22,6 +22,5 @@ How to use:
 - Create add homescreen button
 
 *Later*
-- transform from jQUery to pure javaScript
-- Push notification
-- Android ad iOS version with Electron
+- update code from jQUery to vanilla javaScript
+- create Push notifications
